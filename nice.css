@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section1{
+  height: 60px;
+  width: 100vw;  
+  background-color: white;
+}
+.section1 li{
+    display: inline;s
+}
+.section1 li h1{
+    padding-top: 10px;
+    margin-left: 50px;
+    display: inline;
+}
+.section2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 650px;
+    width: 100vw;
+    background-image: url("bgimg.jpg");
+}
+.section2 h1{
+    padding-top: 70px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    padding-left: 150px;
+    letter-spacing: 2px;
+    color: white;
+}
+.section2 h2{
+    padding-top: 20px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 50px;
+    padding-left: 150px;
+    color: white;
+}
+.section2 h3{
+    font-size: 50px;
+    font-family: 'Source Code Pro', monospace;
+    padding-left: 150px;
+    color: white;
+}
+.section2 pre{
+    padding-top: 80px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    color: rgb(185, 183, 183);
+}
+.section2 p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Martian Mono', monospace;
+    color: white;
+
+}
+.section2 button{
+    margin-top: 30px;
+    font-family: 'Source Code Pro', monospace;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    font-size: 17px;
+    background-color: #FF6AC2;
+    border: none;
+    color: white;
+    
+
+}
+.section3 h1{
+    padding-left: 630px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 35px;
+    padding-top: 30px;
+}
+.section3 pre{
+    padding-left: 470px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.section4{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 650px;
+    width: 100vw;
+    padding-top: 50px;
+
+}
+.section4 image img{
+    padding-left: 30px;
+}
+.section5{
+    height: 750px;
+    width: 100vw;
+    background-color: rgb(220, 220, 220);
+}
+.section5 h1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 60px;  
+}
+.section5 pre{
+    padding-left: 420px;
+    font-size: 19px;
+    font-family: 'Source Code Pro', monospace;
+}
+.section5 img{
+    padding-top: 50px;
+    padding-left: 600px;
+}
+
+@media screen and (max-width: 500px) {
+    .section2 h2{
+        
+        
+        font-size: 22px;
+        padding-left: 25px;
+        
+    }
+}
+.rahul{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.lo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.lo p{
+    background-color: #FF3FA4;
+    height: 250px;
+    width: 300px;
+
+}
+.lo h5{
+    background-color: rgb(220, 220, 220);
+    height: 250px;
+    width: 300px;
+    
+}
+.lu{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.lu p{
+    background-color:rgb(220, 220, 220) ;
+    height: 250px;
+    width: 300px;
+
+}
+.lu h5{
+    background-color: #362FD9;
+    height: 250px;
+    width: 300px;
+    padding-right: 50px;
+
+
+}
+.section1 h1{
+    color: gray;
+    padding-left: 30px;
+    font-size: 38px;
+    font-family: 'Kalam', cursive;
+    padding-top: 10px;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 100%;
+    background-image: linear-gradient(to bottom,pink,violet,blue); 
+}
+.write{
+    height: 500px;
+    width: 300px;
+    background-color: rgb(213, 212, 212);
+}
+.write h1{
+    font-size: 30px;
+}
+.write pre{
+    font-size: 20px;
+}
+.section6 img{
+     position: absolute;
+     margin-right: 500px;
+}
